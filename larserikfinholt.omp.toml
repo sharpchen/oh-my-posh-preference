@@ -23,7 +23,7 @@ version = 2.0
     foreground = "#193549"
     powerline_symbol = "\ue0b0"
     style = "powerline"
-    template = " \uf74a  {{ .Path }} "
+    template = " \uea83  {{ .Path }} "
     type = "path"
     [blocks.segments.properties]
       folder_separator_icon = " \ue0b1 "
@@ -48,7 +48,7 @@ version = 2.0
     background = "#6495EE"
     foreground = "#193549"
     style = "plain"
-    template = "<transparent>\ue0b0</> \ufbab{{ .FormattedMs }}\u2800"
+    template = "<transparent>\ue0b0</> \ueba2 {{ .FormattedMs }}\u2800"
     type = "executiontime"
     [blocks.segments.properties]
       always_enabled = true
@@ -76,5 +76,4 @@ version = 2.0
     type = "exit"
     [blocks.segments.properties]
       always_enabled = true
-
 

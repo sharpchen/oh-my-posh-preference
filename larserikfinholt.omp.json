@@ -23,7 +23,7 @@
           "powerline_symbol": "\ue0b0",
           "foreground": "#193549",
           "background": "#FF6AB3",
-          "template": " \uf74a  {{ .Path }} ",
+          "template": " \uea83  {{ .Path }} ",
           "properties": {
             "folder_separator_icon": " \ue0b1 ",
             "home_icon": "~",
@@ -55,7 +55,7 @@
           "style": "plain",
           "foreground": "#193549",
           "background": "#6495EE",
-          "template": "<transparent>\ue0b0</> \ufbab{{ .FormattedMs }}\u2800",
+          "template": "<transparent>\ue0b0</> \ueba2 {{ .FormattedMs }}\u2800",
           "properties": {
             "always_enabled": true
           }
@@ -100,4 +100,3 @@
     }
   ]
 }
-
